@@ -6,7 +6,7 @@
 
 Game News é uma aplicação full stack web construída por universitarios.
 
-A aplicação consiste em uma pagina web sobre noticias atuais de Videogames e jogos. É modificado pelos administradores as noticias novas do mundo virtual.
+A aplicação consiste em uma pagina web sobre noticias atuais de Videogames e jogos. As noticias novas são modificado pelos administradores.
 
 ## Layout web
 ![Web 1](https://github.com/matheussena27/portifolio.games/blob/main/Assets/Web.PNG)
