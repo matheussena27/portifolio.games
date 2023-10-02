@@ -22,8 +22,8 @@ nav{
     box-shadow: 3px;
     font-weight: bold;
     margin-right: 30px;
-    padding: 10px;
     border: 10px;
+    padding-left: 90px;
     
 }
 
@@ -41,6 +41,10 @@ h2{
     
 }
 
+h1#five{
+    text-align: center;
+    
+}
 h1#cor {
     color:#4852A8;
     font-family: 'Gajraj One', cursive;
