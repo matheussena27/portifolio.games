@@ -16,23 +16,22 @@ header{
     text-align: center;
 }
 
-
 nav{
     color: aliceblue;
     text-align: left;
     box-shadow: 3px;
     font-weight: bold;
     margin-right: 30px;
-    padding: 10px;
     border: 10px;
+    padding-left: 90px;
     
 }
 
 main{
-    background-color: rgba(245, 224, 224, 0.623);
+    background-color: white;
     padding: 10px;
     margin: 0px 90px 10px 90px;
-    border-radius: 5px;
+    border-radius: 0px;
 }
 
 h2{
@@ -42,6 +41,10 @@ h2{
     
 }
 
+h1#five{
+    text-align: center;
+    
+}
 h1#cor {
     color:#4852A8;
     font-family: 'Gajraj One', cursive;
@@ -71,6 +74,16 @@ p{
 
 img {
     text-align: center;
+    width: 35%;
+}
+iframe#tamanho{
+    width: 35%;
+
+}
+
+
+td#centralizar{
+    text-align: center;
 }
 
 p#centralizar{
@@ -85,9 +98,9 @@ p#enquadramento{
 
 table{
 
-    background-color:#A4ABE1;
+    background-color:#ffffff;
     border-style: hidden;
-    padding: 1px 1px 1px 1px;
+    padding: 10px 1px 1px 1px;
     margin: 0px 0px 8px 0px;
     border-radius: 10px 10px 10px 10px;
     text-align: left;
@@ -105,14 +118,18 @@ div {
   
 }
 
+a#left{
+    right: auto;
+}
 a{
+
     padding: 10px;
     margin: 0px;
     border: 10px 10px 10px 10px;
 }
 
 article{
-    background-color: #737485;
+    background-color: #f7f7fa;
     padding: 0px 3px 1px 1px;
     border-radius: 10px 10px 10px 10px;
     text-align: auto;

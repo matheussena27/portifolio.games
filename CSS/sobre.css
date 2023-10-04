@@ -16,6 +16,7 @@ header{
     text-align: center;
 }
 
+
 nav{
     color: aliceblue;
     text-align: left;
@@ -28,10 +29,10 @@ nav{
 }
 
 main{
-    background-color: white;
+    background-color: rgba(245, 224, 224, 0.623);
     padding: 10px;
     margin: 0px 90px 10px 90px;
-    border-radius: 0px;
+    border-radius: 5px;
 }
 
 h2{
@@ -41,10 +42,6 @@ h2{
     
 }
 
-h1#five{
-    text-align: center;
-    
-}
 h1#cor {
     color:#4852A8;
     font-family: 'Gajraj One', cursive;
@@ -90,7 +87,7 @@ table{
 
     background-color:#A4ABE1;
     border-style: hidden;
-    padding: 10px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
     margin: 0px 0px 8px 0px;
     border-radius: 10px 10px 10px 10px;
     text-align: left;
@@ -108,11 +105,7 @@ div {
   
 }
 
-a#left{
-    right: auto;
-}
 a{
-
     padding: 10px;
     margin: 0px;
     border: 10px 10px 10px 10px;
