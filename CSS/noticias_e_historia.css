@@ -150,3 +150,22 @@ footer{
     text-align: center;
     padding: 15px;
 }
+
+input[type="file"] {
+    display: none;
+}
+label {
+    background-color: #efefef;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    border: groove;
+    font-size: 13px;
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+imagem#borda{
+    border: dotted;
+    border-color: blue;
+}
