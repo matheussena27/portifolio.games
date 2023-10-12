@@ -23,7 +23,7 @@ A aplicação consiste em uma pagina web sobre noticias atuais de Videogames e j
 ## Front end
 - HTML / CSS / Javascript
 ## Back end
-- Python / MySQL
+- MySQL
 
 # Autor
 
