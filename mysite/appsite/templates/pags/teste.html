@@ -1,0 +1,17 @@
+{%for bloco in blocos%}
+    {%if bloco.imagem is not none%}
+        <img src="{{bloco.img}}">
+    {%endif%}
+    
+    {%if bloco.subtitulo is not none%}
+        <h2>{{bloco.subtitulo}}</h2>
+    {%endif%}
+
+    {%if bloco.video is not none%}
+        <p id="centralizar"><iframe id="tamanho" width="560" height="315" src={{bloco.video}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+    {%endif%}
+
+    {%if bloco.texto is not none%}
+        <p>{{bloco.texto}}</p>
+    {%endif%}
+{%endfor%}
