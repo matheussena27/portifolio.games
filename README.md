@@ -29,7 +29,11 @@ A aplicação consiste em uma pagina web sobre noticias atuais de Videogames e j
 
 # Tecnologias utilizadas
 ## Front end
-- HTML / CSS
+- HTML / CSS / JS
+
+## Back end
+- Python / Django
+- SQLITE
 
 # Autor
 
