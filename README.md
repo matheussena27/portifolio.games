@@ -34,10 +34,6 @@ A aplicação consiste em uma pagina web sobre noticias atuais de Videogames e j
 ## Back end
 - Python / Django
 - SQLITE
-=======
-- HTML / CSS / Javascript
-## Back end
-- MySQL
 
 # Autor
 
