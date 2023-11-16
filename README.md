@@ -29,7 +29,6 @@ A aplicação consiste em uma pagina web sobre noticias atuais de Videogames e j
 
 # Tecnologias utilizadas
 ## Front end
-<<<<<<< main
 - HTML / CSS / JS
 
 ## Back end
@@ -39,7 +38,6 @@ A aplicação consiste em uma pagina web sobre noticias atuais de Videogames e j
 - HTML / CSS / Javascript
 ## Back end
 - MySQL
->>>>>>> main
 
 # Autor
 
