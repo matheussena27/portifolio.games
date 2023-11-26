@@ -37,7 +37,13 @@
 
                    {%for key, value in texto.items%}
                         {%if key == noticia.id%}
-                            <td><p>{{value}}</p></td>
+                            <td>
+                                <p>{{value}}</p>
+                                <p><strong>Gênero: </strong>{{noticia.genero}}</p>
+                                <p><strong>Desenvolvedor: </strong>{{noticia.desenvolvedor}}</p>
+                                <p><strong>Plataformas: </strong>{{noticia.plataformas}}</p>
+                            </td>
+
                         {% endif %}
                    {%endfor%}
                 </tr>

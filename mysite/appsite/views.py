@@ -98,6 +98,9 @@ def post_inicio(request):
         nova_noticia = Noticia()
         usuario = User.objects.get(username = 'user')
         nova_noticia.titulo = request.POST.get('title')
+        nova_noticia.genero = request.POST.get('genero')
+        nova_noticia.plataformas = request.POST.get('plataformas')
+        nova_noticia.desenvolvedor = request.POST.get('desenvolvedor')
         nova_noticia.usuario = usuario
         nova_noticia.save()
         return redirect("post")
@@ -119,11 +122,14 @@ def news(request, pk):
 
     return render(request, 'pags/noticia.html', context)
 
-def teste(request):
-    blocos = Bloco.objects.all()
+def deletar(request):
+    noticias = Noticia.objects.all()
 
-    context = {
-        'blocos': blocos
-    }
+    context = {'noticias': noticias}
+    return render(request, 'pags/deletar.html', context)
 
-    return render(request, 'pags/teste.html', context)
+def delete(request, pk):
+    noticias = Noticia.objects.filter(id=pk)
+    noticias.delete()
+
+    return redirect("deletar")

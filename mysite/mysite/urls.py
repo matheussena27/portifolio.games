@@ -14,5 +14,6 @@ urlpatterns = [
     path('post_inicio', views.post_inicio, name="post_inicio"),
     path('sobre', views.sobre, name="sobre"),
     path('noticia/<str:pk>', views.news, name="news"),
-    path('teste', views.teste, name="teste")
+    path('deletar', views.deletar, name="deletar"),
+    path('delete/<str:pk>', views.delete, name="delete")
 ]  + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

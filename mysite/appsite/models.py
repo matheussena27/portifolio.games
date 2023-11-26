@@ -4,6 +4,9 @@ from django.contrib.auth.models import User
 
 class Noticia(models.Model):
     titulo = models.CharField(max_length=30, null=False)
+    genero = models.CharField(max_length=40, null=False, default="##")
+    desenvolvedor = models.CharField(max_length=60, null=False, default="##")
+    plataformas = models.CharField(max_length=300, null=False,  default="##")
     usuario = models.ForeignKey(User, on_delete=models.CASCADE)
 
 class Bloco(models.Model):
